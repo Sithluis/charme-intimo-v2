@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charme Intimo</title>
+    <link rel="stylesheet" href="../bot/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/custom.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">                  
+                
+                <div id="logo" class="col">
+                    <img src="../images/Logo.png" alt="Logo Site">
+                </div>
+               
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                  <h2>Sobre Nós</h2>
+                  <p>Bem-vindo à <strong>Charme Íntimo</strong>, onde a elegância e o conforto se encontram. Somos apaixonados por criar lingerie que celebra a beleza e a confiança de cada mulher. Nossa missão é oferecer peças de alta qualidade que não apenas realçam a silhueta, mas também proporcionam conforto durante todo o dia.</p>
+                  <p>Na <strong>Charme Íntimo</strong>, acreditamos que a lingerie é mais do que uma simples peça de roupa; é uma expressão de individualidade e estilo. Cada coleção é cuidadosamente elaborada com materiais premium, design inovador e atenção meticulosa aos detalhes. Desde os sutiãs mais delicados até as calcinhas mais sedutoras, nossa linha de produtos é feita para atender todas as suas necessidades.</p>
+                 <!--<a class="btn btn-lg btn-success">Botão</a>--> 
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="../images/ProG.png" alt="imagemTecnologica" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Lançamentos</h2>
+                    <div class="card">
+                        <img src="../images/CC1.png" alt="imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lingerie Americana</h5>
+                            <p>Lançamento Exclusivo, uma linda lingerie estilo americana.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="../images/CC2.png" alt="imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Body Dominicana</h5>
+                            <p>um body Dominicana lindo confortável e sensual.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="../images/CC3.png" alt="imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lançamento Plus Size</h5>
+                            <p>Conforto, essa é a palavra que define esse Lançamento.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-cor">Ver produto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Ficou interessado?</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para receber um cupom para a compra de um desses lançamentos de agosto.</p>
+                    <h5 id="cupom" style="color: rgb(243, 242, 243);">Verifique seu E-mail para ter acesso ao cupom</h5>
+                </div>
+                <div class="col">
+                    <form class="form">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">
+                        </div>
+                        <div class="input-group">
+                            <input class="form-control" type="email" name="email" placeholder="Digite seu E-mail">
+                        </div>
+                        <div class="input-group">
+                            <textarea class="form-control" name="mensagem" rows="5" placeholder="Por onde você encontrou nosso site de lançamento?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar cupom</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy;Todos os direitos <strong>Charme Intimo</strong></p>
+    </footer>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title">Lingerie/Body</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira os tamanhos e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>P</td>
+                                <td>R$ 310,99</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>R$ 315,99</td>
+                            </tr>
+                            <tr>
+                                <td>G</td>
+                                <td>R$ 325,99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal-cor">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title">Lançamento Plus Size</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira os tamanhos e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Cores</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Vermelho/Preto</td>
+                                <td>R$ 410,99</td>
+                            </tr>
+                            <tr>
+                                <td>Preto</td>
+                                <td>R$ 417,99</td>
+                            </tr>
+                            <tr>
+                                <td>Branco</td>
+                                <td>R$ 419,99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../bot/js/bootstrap.min.js"></script>
+</body>
+</html>
